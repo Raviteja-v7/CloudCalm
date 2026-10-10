@@ -1,0 +1,28 @@
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Node / Vite
+node_modules/
+dist/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# AWS deployment artifacts
+build/
+*.zip
+lambda-response.json
+bedrock-policy.json
+trust-policy.json
+cloudfront-config.json
+unused-distribution.json
+unused-distribution-disabled.json
+bucket-policy.json
+
+# OS files
+.DS_Store
